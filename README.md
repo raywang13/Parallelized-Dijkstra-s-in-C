@@ -15,36 +15,30 @@ structures:
 3. A list pred: pred[v] is the “predecessor” of vertex v on the current path 0->v.
 4. A set known consisting of those vertices for which the shortest path from the source to
 the vertex is known.
-
+```
 Sample Input:
 
 0 1 2 3
-
 4 0 5 6
-
 7 8 0 9
-
 8 7 6 0
 
 Sample Output:
+
 The distance from 0 to each vertex is:
 
  v    dist 0 -> v
 ***   ***********
 
  1        1
-
  2        2
-
  3        3
  
 The shortest path from 0 to each vertex is:
 
  v   Path 0 -> v
 ***  ************
-
   1     0  1
-
   2     0  2
-
   3     0  3
+```
